@@ -1,0 +1,5 @@
+<kmodule xmlns="http://www.drools.org/xsd/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <kbase name="Person" default="true" eventProcessingMode="stream" equalsBehavior="identity" packages="myteam">
+    <ksession name="PersonSession" type="stateless" default="false" clockType="realtime"/>
+  </kbase>
+</kmodule>

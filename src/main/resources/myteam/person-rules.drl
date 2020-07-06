@@ -1,0 +1,27 @@
+package myteam;
+
+import myteam.Person;
+
+rule "John rule"
+no-loop
+    when
+        $p : Person(name == "john")
+    then
+        modify ($p){
+            setAge(35)
+        }
+        System.out.println("Hello " + $p.getName());
+
+end
+
+rule "Mary rule"
+no-loop
+    when
+        $p : Person(name == "mary")
+    then
+        modify ($p){
+            setAge(18)
+        }
+        System.out.println("Hello " + $p.getName());
+
+end

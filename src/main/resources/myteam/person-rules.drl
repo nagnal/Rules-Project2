@@ -61,3 +61,15 @@ no-loop
         System.out.println("Hello " + $p.getName());
 
 end
+
+rule "Sanjay rule"
+no-loop
+    when
+        $p : Person(name == "Sanjay")
+    then
+        modify ($p){
+            setAge(13)
+        }
+        System.out.println("Hello " + $p.getName());
+
+end

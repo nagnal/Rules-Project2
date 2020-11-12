@@ -2,4 +2,7 @@
   <kbase name="Person" default="true" eventProcessingMode="stream" equalsBehavior="identity" packages="myteam">
     <ksession name="PersonSession" type="stateless" default="false" clockType="realtime"/>
   </kbase>
+  <kbase name="rules" packages="rules">
+    <ksession name="ksession-rules"/>
+</kbase>
 </kmodule>

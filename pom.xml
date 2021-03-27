@@ -2,19 +2,13 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>myteam</groupId>
-  <artifactId>decision-rules</artifactId>
-  <version>1.0.0</version>
+  <groupId>com.perf</groupId>
+  <artifactId>business-application-kjar</artifactId>
+  <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
-  <name>decision-rules</name>
+  <name>business-application-kjar</name>
   <description>default description</description>
-  <dependencies>
-    <dependency>
-      <groupId>myteam</groupId>
-      <artifactId>decision-model</artifactId>
-      <version>1.0.0</version>
-    </dependency>
-  </dependencies>
+
   <repositories>
     <repository>
       <id>guvnor-m2-repo</id>
